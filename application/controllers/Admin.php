@@ -261,8 +261,8 @@ class Admin extends CI_Controller
 
         $this->email->from('admin@eliteinsure.co.nz', 'Eliteinsure Letter');
         $this->email->to( $result->rec_email );
-        $this->email->cc($result->rec_cc_email);
-        $this->email->bcc('tom@eliteinsure.co.nz');
+        //$this->email->cc($result->rec_cc_email);
+        //$this->email->bcc('tom@eliteinsure.co.nz');
         $this->email->subject($result->subject);
 
         $this->email->attach($content, 'attachment', $filename, 'application/pdf');
@@ -279,9 +279,9 @@ class Admin extends CI_Controller
 
         if($data['is_success'] == true){
 
-            $this->db->set('is_email_sent', true);      
+            $this->db->set('is_email_sent', 1);      
             $this->db->where('id', $report_id);  
-            $this->db->update('report');  
+            $this->db->update('letter');  
 
         }
 
