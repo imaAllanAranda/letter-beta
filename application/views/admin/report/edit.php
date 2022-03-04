@@ -19,13 +19,13 @@
 
                         <div class="form-group">
                             <div class="shadow-lg p-3 mb-2 bg-white rounded content_field" >
-                                <label class="form-label-lg mb-2" style="font-weight: bold;">Receipient Details</label>
+                                <label class="form-label-lg mb-2" style="font-weight: bold;">Recipient Details</label>
 
                                 <hr style="margin-top: 0px; margin-bottom: 2rem;">
 
                                 <div class="form-group">
                                     <label class="form-label-lg mb-2">Name</label>
-                                    <input type="text" name="edit_rec_name" id="edit_rec_name" class="form-control" placeholder="Please enter the receipient name" value="" required>
+                                    <input type="text" name="edit_rec_name" id="edit_rec_name" class="form-control" placeholder="Please enter the recipient name" value="" required>
                                 </div>
 
                                 <br>
@@ -33,14 +33,14 @@
 
                                 <div class="form-group">
                                     <label class="form-label-lg mb-2">Position</label>
-                                    <input type="text" name="edit_rec_position" id="edit_rec_position" class="form-control" placeholder="Please enter the receipient position" value="" required>
+                                    <input type="text" name="edit_rec_position" id="edit_rec_position" class="form-control" placeholder="Please enter the recipient position" value="" required>
                                 </div>
 
                                 <br>
 
                                 <div class="form-group">
                                     <label class="form-label-lg mb-2">Company</label>
-                                    <input type="text" name="edit_rec_company" id="edit_rec_company" class="form-control" placeholder="Please enter the receipient company" value="">
+                                    <input type="text" name="edit_rec_company" id="edit_rec_company" class="form-control" placeholder="Please enter the recipient company" value="">
                                 </div>
 
                                 <br>
@@ -48,7 +48,7 @@
 
                                 <div class="form-group">
                                     <label class="form-label-lg mb-2">Address</label>
-                                    <textarea name="edit_rec_address" placeholder="Please enter the receipient address" class="form-control" id="edit_rec_address" cols="30" rows="2">
+                                    <textarea name="edit_rec_address" placeholder="Please enter the recipient address" class="form-control" id="edit_rec_address" cols="30" rows="2">
                                     </textarea>
 
                                 </div>
